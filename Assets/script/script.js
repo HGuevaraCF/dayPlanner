@@ -33,8 +33,7 @@ table.each(function() {
     }
 });
 
-//Save events on local storage
-
+//Save events on local storage at click
 $('.btn').on('click', function() {
     var section = $(this).attr('id');
     switch(section) {
@@ -97,6 +96,7 @@ $('.btn').on('click', function() {
     localStorage.setItem('Events', JSON.stringify(events));
 });
 
+// Print local Storage if exists
 $(document).ready(function () {
     if(localStorage.getItem('Events') != null){
         var storedEvents = JSON.parse(localStorage.getItem('Events'));
