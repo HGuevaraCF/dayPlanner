@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/style/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +31,57 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table id="timeBlocks">
+        <tr class="row">
+          <td class="dayHour time-block hour">9AM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">10AM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">11AM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">12PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">1PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">2PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">3PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">4PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+        <tr class="row">
+          <td class="dayHour time-block hour">5PM</td>
+          <td class="description"><input type="text" placeholder="Event"></input></td>
+          <td class="eventSave saveBtn"><button class="btn"><i class="material-icons">save</i></button></td>
+        </tr>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/script/script.js"></script>
   </body>
 </html>

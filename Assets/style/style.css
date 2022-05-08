@@ -30,17 +30,11 @@ textarea {
   border-radius: 15px;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
+.future {
+  background-color: #77dd77;
+  color: white;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
 
 .past {
   background-color: #d3d3d3;
@@ -51,10 +45,16 @@ textarea {
   background-color: #ff6961;
   color: white;
 }
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
 
-.future {
-  background-color: #77dd77;
-  color: white;
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
 }
 
 .saveBtn {
@@ -63,9 +63,31 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  text-align: center;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#timeBlocks {
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 100%;
+}
+
+#timeBlocks .dayHour, #timeBlocks .eventSave {
+  width: 10%;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: #06aed5;
+  border: none;
 }
