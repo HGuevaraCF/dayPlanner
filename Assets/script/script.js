@@ -1,0 +1,1 @@
+var today = moment().format('MMM Do, YYYY');
