@@ -4,4 +4,4 @@
 
 Link to application: https://hguevaracf.github.io/dayPlanner/
 
-![link]()
+![link](./Assets/dayPlanner.png)
